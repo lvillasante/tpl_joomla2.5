@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.6" type="template" client="site">
+	<name>Blank_Template_Joomla-1.6-1.7-2.5</name>
+	<creationDate>03-03- 2012</creationDate>
+	<author>Joomla CSS</author>
+	<copyright>Joomla CSS</copyright>
+	<authorEmail>info@joomla-css.nl</authorEmail>
+	<authorUrl>http://www.joomla-css.nl</authorUrl>
+	<version>1.0</version>
+	<description>Blanko Template Joomla 1.6 / 1.7 / 2.5</description>
+	<files>
+		<folder>css</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>top</position>
+		<position>left</position>
+		<position>footer</position>
+	</positions>
+</extension>

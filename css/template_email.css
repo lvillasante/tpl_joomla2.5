@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document for Joomla styles 1.6.x */
+
+/* -----------------------------------------------------------
+   Print popup screen
+   Change "yourtemplatefolder" into your own template folder name
+------------------------------------------------------------ */
+@import url("../../yourtemplatefolder/css/template.css");
+
+/* -----------------------------------------------------------
+   Both screens POP Print and popup Email
+------------------------------------------------------------ */
+body.contentpane {
+    padding: 30px;
+}
+
+/* -----------------------------------------------------------
+   Email popup screen
+------------------------------------------------------------ */
+div#mailto-window h2 {
+    margin: 0 0 15px 0;
+}
+ 
+div#mailto-window div.mailto-close {
+    padding: 5px 0 20px 0;
+}
+ 
+div#mailto-window div.mailto-close a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 3px 10px 4px 10px;
+    color: #555;
+    font-style: italic;
+    background-color: #e5e5e5;
+    border: 1px #888 solid;
+    text-decoration: none;
+}
+ 
+div#mailto-window div.mailto-close a:hover {
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 3px 10px 4px 10px;
+    color: #000;
+    font-style: italic;
+    background-color: #ccc;
+    border: 1px #777 solid;
+    text-decoration: none;
+}
+ 
+div#mailto-window form#mailtoForm div.formelm label {
+    display: block;
+    float: left;
+    width: 200px;
+}
+ 
+div#mailto-window form#mailtoForm div.formelm input {
+    margin: 0 0 3px 0;
+}
+ 
+div#mailto-window form#mailtoForm button.button {
+    margin: 15px 0 0 0;
+}
