@@ -1,4 +1,4 @@
-tpl_joomla2.5
-=============
+Template Base para Joomla 2.5
+=============================
 
-template en blanco basado en 960GS para Joomla version 2.5
+Template en blanco basado en 960GS para Joomla version 2.5
